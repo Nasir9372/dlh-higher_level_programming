@@ -8,7 +8,7 @@ if __name__ == "__main__":
     elif count == 1:
         print("1 argument:")
     else:
-        print("{} argument:".format(count))
+        print("{} arguments:".format(count))
 
 if count >= 1:
     for i in range(1, len(sys.argv)):
