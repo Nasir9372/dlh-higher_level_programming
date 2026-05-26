@@ -5,7 +5,7 @@ def roman_to_int(roman_string):
         'L': 50, 'C': 100, 'D': 500, 'M': 1000
     }
 
-    if roman_string is None or type(roman_string) is not str:
+    if not isintance(roman_string, str) or if roman_string is None:
         return 0
 
     total = 0
